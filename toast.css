@@ -1,0 +1,70 @@
+
+/*Toast*/
+
+#toast-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.toast {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	min-width: 150px;
+	max-width: 600px;
+	background: #333;
+	opacity: 0.8;
+	box-shadow: 0 0 8px #333;
+	color: #FFF;
+	padding: 15px;
+	pointer-events: auto;
+	transition: all 0.3s;
+	font-size: 16px;
+	align-items: center;
+}
+
+.toast:not(:last-of-type) {
+	margin-bottom: 20px;
+}
+
+.toast:hover {
+	opacity: 1;
+}
+
+.toast-message {
+	flex-grow: 1;
+	word-wrap: break-word;
+	cursor: default;
+	padding-right: 20px;
+	border-right: 2px solid #c3c3c3;
+}
+
+.toast-action {
+	color: #71cfeb;
+	padding: 0 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-right: 2px solid #c3c3c3;
+}
+
+.toast-action a {
+	color: #71cfeb;
+	text-decoration: none;
+}
+
+.toast-close {
+	cursor: pointer;
+	padding: 0 10px 0 20px;
+}
+
+.toast-close .cross-icon use {
+	stroke: #c3c3c3;
+}
+
+.toast-close:hover .cross-icon use {
+	stroke: #ed5b6c;
+}

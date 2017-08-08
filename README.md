@@ -48,5 +48,5 @@ Toast requires [jQuery](https://jquery.com/) any version preferably latest to ru
 ```
 `Special attention should be given to the z-index of the toast container if doesn't show up.`
 
-`Toast if based on flex property of the css, so some browsers do not support flex yet. Change css as per your requirements.`
+`Toast is based on flex property of the css, so some browsers do not support flex yet. Change css as per your requirements.`
 

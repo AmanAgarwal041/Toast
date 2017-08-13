@@ -1,6 +1,8 @@
 # Toast
 
-Toast is jquery based library for displaying a message or a notification on your website.
+Toast is javascript based library for displaying a message or a notification on your website.
+* javscript version : toast-js.js and toast-js.min.js
+* jquery version : toast-jq.js and toast-jq.min.js
 
 ![Toast](https://github.com/AmanAgarwal041/Toast/blob/master/toast.png)
 

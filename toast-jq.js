@@ -40,6 +40,9 @@
 		if (options.unique && options.toastId) {
 			html += 'data-toastid = "'+options.toastId+'"';
 		}
+		if (data.autoHide) {
+			html += 'autoHide = true';
+		}
 		html += ' >';
 		html += '<span class="toast-message">'+data.message+'</span>';
 		if(options.action){
@@ -85,7 +88,7 @@
 				elem.remove();
 			}
 			else{
-				$('#toast-container .toast').last().remove();
+				$('#toast-container .toast[autoHide=true]').last().remove();
 			}
 		}
 	}

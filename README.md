@@ -31,8 +31,9 @@ Options to be passed to the functions :
 
 ### Tech
 
-Toast is uses number of open source projects :
+Toast uses number of open source projects :
 
+* [javascript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) - Accessing the html and appending data into dom!
 * [jQuery](https://jquery.com/) - Accessing the html and appending data into dom!
 * [Css](https://developer.mozilla.org/en-US/docs/Web/CSS) - Providing awesome style to the toast elements.
 
@@ -40,7 +41,7 @@ And of course Toast itself is open source with a [public repository](https://git
 
 ### Installation
 
-Toast requires [jQuery](https://jquery.com/) any version preferably latest to run.
+Toast requires [jQuery](https://jquery.com/) any version preferably latest to run if toast-jq or toast-jq.min is used.
 
 ```
 * Include the script file and css file into your html

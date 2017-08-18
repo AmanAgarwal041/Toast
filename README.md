@@ -19,17 +19,19 @@ createToast({
 ---
 Options to be passed to the functions :
 
-> **message** 					: 		text
-> **toastClass**			: 		text - multiple classes separated by spaces
-> **action**  					: 		Object
-> **action.actionText**			: 		text | html
-> **action.actionClass**		: 		text - multiple classes separated by spaces
-> **closeButton** 				: 		Boolean : default true
-> **closeClickEvent** 	    	: 		function : default undefined
-> **autoHide** 					: 		Boolean : default true : true if closeButton is false
-> **autoHideTime** 				: 		integer : default 3000ms
-> **unique** 					: 		unique toast check : for this toastId parameter is must
-> **toastId** 					: 		string : for uniqueness of the toast
+| Key 								| description 																						|
+| ------------------	| -------------------------------------------------------	|
+| message 						|	Message Text to be shown in the toast 									|
+| toastClass 					| text - multiple classes separated by spaces 						|
+| action 							| Object 																									|
+| action.actionText 	| text | html 																						|
+| action.actionClass 	| text - multiple classes separated by spaces							|
+| closeButton 				| Boolean : default true 																	|
+| closeClickEvent 		| function : default undefined 														|
+| autoHide 						| Boolean : default true : true if closeButton is false 	|
+| autoHideTime 				| integer : default 3000ms 																|
+| unique 							| unique toast check : for this toastId parameter is must |
+| toastId 						| string : for uniqueness of the toast 										|
 
 ### Tech
 

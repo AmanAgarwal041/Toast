@@ -98,7 +98,7 @@
 	function closeToast(ev){
 		var clickedElem = (ev && ev.target) ? ev.target : this;
 		var elem = closest.call(clickedElem, 'div.toast');
-		var toastLength = document.getElementById('toast-container').children.length;
+		var toastLength = ((document.getElementById('toast-container') || {}).children || []).length;
 		if(1 == toastLength){
 			document.getElementById('toast-container').remove();
 		}
@@ -107,7 +107,7 @@
 				elem.remove();
 			}
 			else{
-				var elements = document.getElementById('toast-container').children;
+				var elements = (document.getElementById('toast-container') || {}).children;
 				if (elements) {
 					for(var i = elements.length - 1; i >= 0; i--) {
 						if(elements[i].matches('div.toast[autoHide = true]')) {
